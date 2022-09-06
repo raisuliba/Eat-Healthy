@@ -1,36 +1,44 @@
 body{
     font-family: 'Baloo 2', cursive;
+}
+.flexible-container{
+    display: flex;
     margin: 0px;
 }
-.order-button{
-    text-decoration: none;
-    background-image: radial-gradient(yellow, tomato);
-    padding: 20px 40px;
-    color: solid gray;
-    border-radius: 30px;
+.Google-font{
+    font-size: 80px;
 }
 .skip{
     color: tomato;
 }
+
 .half-width{
     width: 50%;
     margin-top: 5%;
+    margin-left: 5%;
     color:rgb(43, 39, 39);
 }
-.alphabet{
-    margin-left: 5%;
+.description{
+    margin-top: 2px;
+    font-size: 30px;
 }
+.order-button{
+    text-decoration: none;
+    background-image: radial-gradient(yellow, tomato);
+    padding: 30px 45px;
+    color: rgb(102, 17, 17);
+    border-radius: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
 .half-width img{
     width: 100%;
-    margin-left: 0px;
+    margin-top: 0%;
 }
-.flexible-container{
-    display: flex;
-}
-.lighting{
-    font-size: 90px;
-}
-.description{
-    margin-top: 5px;
-    font-size: 30px;
+.background{
+    background-image: url(images/shapes/Group\ 8450.png);
+    background-repeat: none;
+    width: 20%;
 }
